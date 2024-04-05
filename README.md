@@ -1,7 +1,5 @@
 # MSU FTE - A Complete Guide For The Students
 
-[Dashboard of MSU FTE](./img/Dashboard.png)
-
 ## Welcome! 👋
 
 Thanks for checking out this MSU FTE Project.
