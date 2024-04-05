@@ -1,0 +1,53 @@
+@media only screen and (min-width: 900px) {
+  body {
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+      url(../img/maharaja-sayajirao-university-of-baroda-campus.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    background-repeat: no-repeat;
+  }
+
+  .Dep {
+    margin-top: -50px;
+    font-size: 50px;
+  }
+  .after p,
+  .before p {
+    display: inline;
+  }
+  .before,
+  .after {
+    font-size: 25px;
+    list-style-type: none;
+  }
+  .after p a,
+  .before p a {
+    border: 1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+  }
+  p a:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: white solid 1px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  * {
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+  }
+  .Dep {
+    font-size: 50px;
+    margin-top: 0px;
+  }
+  p a {
+    display: list-item;
+  }
+}
